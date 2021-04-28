@@ -1,0 +1,32 @@
+.box {
+    height: 5rem;
+    width: 5rem;
+    padding: 10px;
+}
+
+.box.dark {
+    background-color: darkgray;
+}
+
+.box.light {
+    background-color: burlywood;
+}
+.container {
+    margin-top: 50px;
+}
+
+.line {
+    position: absolute;
+    background-color: brown;
+    height: 3px;
+}
+
+.x div{
+    content:  url('../assets/cross.svg');
+    height: 100%;
+}
+
+.o div {
+    content:  url('../assets/o.svg');
+    height: 100%;
+}
